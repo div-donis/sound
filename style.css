@@ -57,11 +57,12 @@ a {
 a:hover {
     color: rgb(245, 239, 234);
     font-weight: 1;
-    text-shadow: 7px 10px rgba(41, 41, 41, 0.1);
+    text-shadow: 7px 10px rgba(41, 41, 41, 0.11);
 }
 a:active {
     color: rgb(245, 239, 234);
     font-weight: 900;
+    text-shadow: 7px 10px rgba(41, 41, 41, 0.05);
 }
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 53%}
