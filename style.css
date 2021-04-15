@@ -43,6 +43,7 @@ body {
     text-decoration: none;
 }
 button {
+    outline: 0;
     background: none;
     border: none;
     color: rgb(245, 239, 234);
@@ -58,23 +59,18 @@ button {
     text-shadow: 7px 10px rgba(41, 41, 41, 0.05);
 }
 button:hover {
+    outline: 0;
     color: rgb(245, 239, 234);
     font-weight: 1;
     text-shadow: 7px 10px rgba(41, 41, 41, 0.11);
 }
 button:active {
-    color: rgb(245, 239, 234);
-    font-weight: 900;
-    text-shadow: 7px 10px rgba(41, 41, 41, 0.05);
-}
-button:after {
-    color: rgb(245, 239, 234);
-    font-weight: 900;
-    text-shadow: 7px 10px rgba(41, 41, 41, 0.05);
-}
-button:focus {
     outline: 0;
+    color: rgb(245, 239, 234);
+    font-weight: 900;
+    text-shadow: 7px 10px rgba(41, 41, 41, 0.05);
 }
+
 @media(hover: hover) and (pointer: fine){
     a:hover {
         color: rgb(245, 239, 234);
