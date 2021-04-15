@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "lane";
+    src: url("./Faune-DisplayThin.otf") format("truetype")
+}
+@font-face {
+    font-family: "enter";
+    src: url(./BebasNeue-Regular.otf) format("opentype");
+}
+#banner {
+    color: rgb(245, 239, 234);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    font-size: 15vw;
+    font-family: 'lane';
+    font-weight: 75;
+    letter-spacing: 6px;
+    padding-left: 4vw;
+    text-shadow: 7px 10px rgba(41, 41, 41, 0.1);
+}
+body {
+    background: linear-gradient(271deg, #da78b1, #33a4c2, #f4f4f4);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 33s ease infinite;
+    -moz-animation: AnimationName 33s ease infinite;
+    -o-animation: AnimationName 33s ease infinite;
+    animation: AnimationName 33s ease infinite;
+}
+#enter {
+    color: rgb(245, 239, 234);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    font-size: 6vh;
+    font-family: 'enter';
+    font-weight: 900;
+    padding-left: 4vw;
+    padding-bottom: 2vw;
+    text-shadow: 7px 10px rgba(41, 41, 41, 0.05);
+    text-decoration: none;
+}
+a {
+    color: rgb(245, 239, 234);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    font-size: 6vh;
+    font-family: 'enter';
+    font-weight: 900;
+    padding-bottom: 2vw;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(245, 239, 234);
+    font-weight: 1;
+    text-shadow: 7px 10px rgba(41, 41, 41, 0.1);
+}
+a:active {
+    color: rgb(245, 239, 234);
+    font-weight: 900;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
