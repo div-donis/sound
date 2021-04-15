@@ -64,6 +64,22 @@ a:active {
     font-weight: 900;
     text-shadow: 7px 10px rgba(41, 41, 41, 0.05);
 }
+a:after {
+    color: rgb(245, 239, 234);
+    font-weight: 900;
+    text-shadow: 7px 10px rgba(41, 41, 41, 0.05);
+}
+a:focus {
+    outline: 0;
+}
+@media(hover: hover) and (pointer: fine){
+    a:hover {
+        color: rgb(245, 239, 234);
+        font-weight: 1;
+        text-shadow: 7px 10px rgba(41, 41, 41, 0.11);
+    }
+    
+}
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 53%}
     50%{background-position:100% 48%}
